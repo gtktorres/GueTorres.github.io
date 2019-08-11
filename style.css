@@ -33,7 +33,20 @@ p {
   font-size: 20px;
 }
 
-#tabletop {
+.portrait{
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
 
-  height: 1.5em
+.biker{
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tabletop {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
 }
