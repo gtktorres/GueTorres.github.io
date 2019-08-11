@@ -46,7 +46,7 @@ p {
 }
 
 .tabletop {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
+  max-width: 100%;  
+  height: auto;
+  display: block;
 }
