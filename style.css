@@ -34,6 +34,6 @@ p {
 }
 
 #tabletop {
-  min-height: 150px;
-  max-height: 300px;
+
+  height: 1.5em
 }
