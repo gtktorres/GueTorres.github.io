@@ -4,7 +4,7 @@ body {
 
 #banner {
   
-  background-image: linear-gradient(indigo, lavender);
+  background-image: linear-gradient(to right,indigo, lavender);
   background-position: center;
   font-size: 1.5em;
   background-repeat: no-repeat;
