@@ -33,6 +33,7 @@ p {
   font-size: 20px;
 }
 
-h2.about{
-  
+#tabletop {
+  min-height: 150px;
+  max-height: 300px;
 }
