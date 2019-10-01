@@ -2,25 +2,26 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Me from './boston.PNG';
+
+export default class App extends React.Component {
+  render() {
+
   return (
+
+
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h1>Guevara Torres</h1>
+
+      <img src={Me} className="App-port" alt="logo" />
+      <div className="Card">
+        <p className="About-Me"> I'm a senior at Lehman college pursuing a Bachelor of Science in Computer Science. With an interest in mobile applications as well as Web applicatons.</p>
+      </div>
+
     </div>
   );
+  }
 }
 
-export default App;
